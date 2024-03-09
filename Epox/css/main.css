@@ -1,0 +1,65 @@
+
+.footer {
+    width: 100%;
+    background: gray;
+    height: 100px;
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.cl {
+    margin-right: 25px;
+    margin: auto;
+    font-family: Comfort;
+}
+
+.p-name {
+    text-align: center;
+}
+
+.kr {
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    
+    
+}
+
+.ttt {
+    width: 420px;
+    height: inherit;
+    
+}
+
+.obs {
+    display: flex;
+}
+
+.markers {
+    margin: 0 0 20px 14px;
+	padding: 0;
+}
+.markers li {
+    list-style-image: url(/marker.png);
+	margin: 7px 0;
+}
+
+.yak {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/vv.png);
+    margin-left: auto;
+    margin-right: 70px;
+    
+}
+@font-face {
+	font-family: 'Intro'; 
+	src: local('Intro'),
+		url(../Shrifts/Intro.otf); 
+}
+@font-face {
+	font-family: 'Comfort'; 
+	src: local('Comfort'),
+		url(../Shrifts/Comfortaa-VariableFont_wght.ttf); 
+}
