@@ -1,0 +1,68 @@
+.main {
+	padding-top: 100px;
+}
+body {
+	background: #efffff;
+}
+.shop-wrapper {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.shop-item {
+	width: calc(33% - 10px - 60px);
+	padding: 30px;
+	margin: 5px;
+/*	width: 350px;*/
+	background: #00c2c2;
+	text-align: center;
+}
+.shop-item-img {
+	width:200px;
+	height:200px;
+}
+.header-btn {
+	background: #9FBB73;
+	color: white;
+	font-size: 40px;
+}
+.subtitle-item {
+	font-size: 25px;
+}
+.shop-item:hover {
+	transition: 1s;
+	transform: scale(1.1);
+	background: black;
+	border: solid 4px #00c2c2; 
+	color: white;
+}
+.shop-item:hover > .header-btn {
+	background: #EC8F5E;
+	transition: 1s;
+
+}
+.shapka {
+	background: #1F0E00;
+
+
+}
+.h3 {
+	font-size: 30px;
+}
+.opisanie {
+	width: 50%;
+	height: 150px;
+}
+.p {
+	margin-left: 300px;
+}
+.p {
+	font-size: 30px;
+
+}
+.p2 {
+	font-size: 30px;
+	margin-left: 300px;
+}

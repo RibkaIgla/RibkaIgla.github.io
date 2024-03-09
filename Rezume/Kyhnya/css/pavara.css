@@ -1,0 +1,73 @@
+.main {
+	padding-top: 100px;
+}
+body {
+	background: #efffff;
+}
+.shop-wrapper {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.shop-item {
+	width: calc(77% - 10px - 60px);
+	padding: 30px;
+	margin: 10px;
+/*	width: 350px;*/
+	background: #00c2c2;
+	
+}
+.shop-item-img {
+	width:200px;
+	height:200px;
+}
+.header-btn {
+	background: #9FBB73;
+	color: white;
+	font-size: 40px;
+}
+.subtitle-item {
+	font-size: 25px;
+}
+.shop-item:hover {
+	transition: 1s;
+	transform: scale(1.1);
+	background: black;
+	color: white;
+	border: solid 4px #00c2c2; 
+}
+.shop-item:hover > .header-btn {
+	background: #EC8F5E;
+	transition: 1s;
+
+}
+.shapka {
+	background: #1F0E00;
+
+}
+.h3 {
+	font-size: 30px;
+}
+.p {
+	margin-left: 300px;
+}
+.povar {
+	width: 1000px;
+	height: 1000px;
+	background: black;
+	margin: auto;
+}
+.p {
+	font-size: 30px;
+
+}
+.p2 {
+	font-size: 30px;
+	margin-left: 300px;
+}
+.opisanie {
+	width: 60%;
+	height: 150px;
+}
